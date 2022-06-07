@@ -1,1 +1,5 @@
+# notebook checkpoints
+.ipynb_checkpoints/
+
+# derived CSV
 lesion-size-2020_metadata_extended.csv
