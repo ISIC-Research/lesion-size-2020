@@ -40,11 +40,13 @@ Finally, download the images from the ISIC Archive, and create three sized versi
 ```
 isic image download -l 0 -c 162 data
 python fudge_metadata.py
+
 cd data
 for n in *JPG ; do
     m=`echo $n|sed -e "s/.JPG/.jpg/"`
     mv $n $m
   done
+
 mkdir -p jpeg-melanoma-512x512/test
 mogrify -format jpg -path jpeg-melanoma-512x512/test/ -thumbnail 512x512^ -gravity center -extent 512x512 -quality 95 *.jpg
 cd jpeg-melanoma-512x512
