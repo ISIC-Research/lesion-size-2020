@@ -19,12 +19,13 @@ pip install ./
 cd ..
 ```
 
-Then please clone the ADAE repository using
+Then please clone the ADAE repository using, and fix erroneous line break
 
 ```
 mkdir code
 git clone http://github.com/haqishen/SIIM-ISIC-Melanoma-Classification-1st-Place-Solution/ ./code
 chmod 755 code/*.py
+patch code/predict.py fixed/predict.patch
 ```
 
 And then download the pre-trained model weights into the correct folder
