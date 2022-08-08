@@ -1,0 +1,13 @@
+image_name,patient_id,sex,age_approx,anatom_site_general_challenge,diagnosis,benign_malignant,target,tfrecord
+ISIC_0101540,IP_3075186,female,45.0,upper extremity,unknown,benign,0,0
+ISIC_0103730,IP_2842074,female,50.0,lower extremity,nevus,benign,0,1
+ISIC_0104911,IP_6890425,female,45.0,head/neck,BKL,benign,0,2
+ISIC_0112457,IP_7684360,male,55.0,torso,DF,benign,0,3
+ISIC_0118792,IP_1697215,female,35.0,palms/soles,AK,benign,0,4
+ISIC_0119296,IP_4248414,male,25.0,,SCC,benign,0,0
+ISIC_0135990,IP_0135517,female,50.0,upper extremity,melanoma,malignant,1,1
+ISIC_0136396,IP_5205991,,,upper extremity,VASC,benign,0,2
+ISIC_0140720,IP_8213239,male,65.0,oral/genital,BCC,benign,0,3
+ISIC_0148118,IP_7748972,male,45.0,anterior torso,unknown,benign,0,4
+ISIC_0178317,IP_8011614,female,35.0,lateral torso,unknown,benign,0,0
+ISIC_0186998,IP_8442277,female,50.0,posterior torso,unknown,benign,0,1
