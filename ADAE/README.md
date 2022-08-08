@@ -38,7 +38,7 @@ kaggle d download boliu0/melanoma-winning-models -p code/weights --unzip
 Finally, download the images from the ISIC Archive, and create three sized versions
 
 ```
-isic image download -c 162 data
+isic image download -l 0 -c 162 data
 python fudge_metadata.py
 cd data
 for n in *JPG ; do
