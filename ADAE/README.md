@@ -36,6 +36,7 @@ kaggle d download boliu0/melanoma-winning-models -p code/weights --unzip
 
 ## Downloading and processing images
 Finally, download the images from the ISIC Archive, and create three sized versions
+**(this step requires ImageMagick/mogrify to be installed!)**
 
 ```
 isic image download -l 0 -c 162 data
