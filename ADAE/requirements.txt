@@ -1,0 +1,12 @@
+torch
+albumentations
+resnest
+geffnet
+numpy
+opencv_python
+pretrainedmodels
+tqdm
+Pillow
+scikit_learn
+kaggle
+isic-cli
