@@ -4,7 +4,7 @@
 First, please create and activate a conda/python (3.9) environment with
 
 ```
-conda create --name ADAE python=3.9
+conda create -y --name ADAE python=3.9
 conda activate ADAE
 ```
 
