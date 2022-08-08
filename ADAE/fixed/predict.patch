@@ -1,0 +1,12 @@
+--- code/predict.py	2022-08-08 17:06:24.951836584 -0400
++++ fixed/predict.py	2022-08-08 17:32:00.487858413 -0400
+@@ -72,8 +72,7 @@
+     for fold in range(5):
+ 
+         if args.eval == 'best':
+-            model_file = 
+-            os.path.join(args.model_dir, f'{args.kernel_type}_best_fold{fold}.pth')
++            model_file = os.path.join(args.model_dir, f'{args.kernel_type}_best_fold{fold}.pth')
+         elif args.eval == 'best_20':
+             model_file = os.path.join(args.model_dir, f'{args.kernel_type}_best_20_fold{fold}.pth')
+         if args.eval == 'final':
