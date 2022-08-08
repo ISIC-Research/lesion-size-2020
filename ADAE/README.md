@@ -87,7 +87,7 @@ cd ../..
 
 mkdir jpeg-isic2019-512x512
 cd jpeg-isic2019-512x512
-ln -s ../train-isic2019.csv train.csv .
+ln -s ../train-isic2019.csv train.csv
 mkdir train
 cd train
 for im in ../../ISIC_01* ; do
@@ -97,7 +97,7 @@ cd ../..
 
 mkdir jpeg-isic2019-768x768
 cd jpeg-isic2019-768x768
-ln -s ../train-isic2019.csv train.csv .
+ln -s ../train-isic2019.csv train.csv
 mkdir train
 cd train
 for im in ../../ISIC_01* ; do
@@ -107,7 +107,7 @@ cd ../..
 
 mkdir jpeg-isic2019-1024x1024
 cd jpeg-isic2019-1024x1024
-ln -s ../train-isic2019.csv train.csv .
+ln -s ../train-isic2019.csv train.csv
 mkdir train
 cd train
 for im in ../../ISIC_01* ; do
