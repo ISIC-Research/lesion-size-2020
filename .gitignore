@@ -3,3 +3,16 @@
 
 # derived CSV
 lesion-size-2020_metadata_extended.csv
+
+# images downloaded from ISIC
+ADAE/data/*.jpg
+ADAE/data/*.JPG
+ADAE/data/attribution.txt
+ADAE/data/jpeg-*
+ADAE/data/data.csv
+ADAE/data/metadata.csv
+
+# packages
+ADAE/apex
+ADAE/code
+
